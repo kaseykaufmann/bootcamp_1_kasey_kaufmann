@@ -1,4 +1,4 @@
-import * as http from 'http';
+var http = require("http");
 const port = 5000;
 
 const requestHandler = function (request, response) {
